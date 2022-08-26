@@ -5,8 +5,6 @@ from .helpers import format_duration, get_duration, is_visit_long
 
 
 def storage_information_view(request):
-    # Программируем здесь
-
     non_closed_visits = []
 
     for visit in get_list_or_404(Visit, leaved_at__isnull=True):    
