@@ -9,10 +9,7 @@ def get_duration(visit):
 
 
 def format_duration(duration):  
-    return timedelta(
-        days=duration.days, 
-        seconds=duration.seconds, 
-        microseconds=0)
+    return timedelta(days=duration.days, seconds=duration.seconds)
 
 
 def is_visit_long(visit):
