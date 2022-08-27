@@ -4,12 +4,12 @@ The security console is a site that can be connected to a remote database with v
 The site requires access to the database.
 
 ## before start you have to:
-- fill 'DATABASES' param in settings.py
-'HOST': ****,
-'PORT': ****,
-'NAME': ****,
-'USER': ****,
-'PASSWORD': **** 
+- fill 'DATABASES' param in settings.py  
+'HOST': ****,  
+'PORT': ****,  
+'NAME': ****,  
+'USER': ****,  
+'PASSWORD': ****   
 
 ## for installation: 
 ```
@@ -19,5 +19,5 @@ pip install -r requirements.txt
 ## for launch:
 The site can be launched using the standard Django development server.
 ```
-python main.py
+python main.py 
 ```
