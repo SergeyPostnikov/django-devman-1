@@ -1,5 +1,5 @@
 from django.utils.timezone import localtime
-
+from datetime import timedelta
 
 def get_duration(visit):
     if visit.leaved_at is not None:
@@ -7,8 +7,8 @@ def get_duration(visit):
     return localtime() - visit.entered_at
 
 
-def format_duration(duration):    
-    return duration
+def format_duration(duration):
+    return timedelta(days=duration.days, seconds=duration.seconds, microseconds=0)
 
 
 def is_visit_long(visit):
