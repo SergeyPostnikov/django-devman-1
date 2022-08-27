@@ -5,11 +5,11 @@ The site requires access to the database.
 
 ## before start you have to:
 - fill 'DATABASES' param in settings.py
-	'HOST': ****,
-    'PORT': ****,
-    'NAME': ****,
-    'USER': ****,
-    'PASSWORD': **** 
+'HOST': ****,
+'PORT': ****,
+'NAME': ****,
+'USER': ****,
+'PASSWORD': **** 
 
 ## for installation: 
 ```
