@@ -9,7 +9,7 @@ def get_duration(visit):
 
 
 def format_duration(duration):  
-    return timedelta(days=duration.days, seconds=duration.seconds)
+    return f'{duration.total_seconds() // 3600}ч {duration.total_seconds() % 3600 // 60}мин'
 
 
 def is_visit_long(visit):
