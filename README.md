@@ -5,7 +5,7 @@ The site requires access to the database.
 
 ## before start you have to:
 - create .env file on project directory
-add records:   
+add records:  
 HOST=****    
 PORT=****  
 NAME=****  
