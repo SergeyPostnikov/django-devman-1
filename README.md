@@ -4,7 +4,7 @@ The security console is a site that can be connected to a remote database with v
 The site requires access to the database.
 
 ## before start you have to:
-- create .env file on project director and add records:  
+- create .env file on project directory and add records:  
 HOST=****    
 PORT=****  
 NAME=****  
