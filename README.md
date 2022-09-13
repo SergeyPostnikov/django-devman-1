@@ -4,12 +4,8 @@ The security console is a site that can be connected to a remote database with v
 The site requires access to the database.
 
 ## before start you have to:
-- create .env file on project directory and add records:  
-HOST=****    
-PORT=****  
-NAME=****  
-USER=****  
-PASSWORD=****   
+- create .env file on project directory and add record:  
+DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME  
 
 ## for installation: 
 ```
